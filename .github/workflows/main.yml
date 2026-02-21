@@ -10,6 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: 23f1003149@ds.study.iitm.ac.in
+        run: echo "email step present"
+
       - name: Cache dependencies
         id: cache
         uses: actions/cache@v4
